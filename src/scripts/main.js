@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const newRow = document.createElement('tr');
 
-    newRow.innerHTML = `<td>${name}</td><td>${position}</td><td>${office}</td><td>${age}</td><td>${salary}</td>`;
+    newRow.innerHTML = `<td>${employeeName}</td><td>${position}</td><td>${office}</td><td>${age}</td><td>${salary}</td>`;
 
     tbody.appendChild(newRow);
 
